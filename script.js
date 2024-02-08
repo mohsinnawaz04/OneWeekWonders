@@ -29,6 +29,8 @@ function hideMobileMenu() {
 
 // GSAP
 
+/*
+
 gsap.from('#page1 nav', {
   y: -50,
   duration: .8,
@@ -53,9 +55,9 @@ gsap.from('#video-section', {
 
 const tl = gsap.timeline({
   scrollTrigger: {
-    trigger: '#page2 .heading',
+    trigger: 'body',
     start: 'top 100%',
-    end: 'bottom top',
+    end: 'bottom 50%',
   }
 })
 
@@ -74,8 +76,8 @@ gsap.from('#page2 .sub-heading', {
 
   scrollTrigger: {
     trigger: '#page2 .sub-heading',
-    start: 'top bottom',
-    end: 'bottom center'
+    start: 'top 80%',
+    end: 'bottom 50%'
   }
 })
 
@@ -86,8 +88,8 @@ gsap.from('#page2 #cards-container', {
 
   scrollTrigger: {
     trigger: '#page2 #cards-container',
-    start: 'top bottom',
-    end: 'bottom center'
+    start: 'top 80%',
+    end: 'bottom 50%'
   }
 })
 
@@ -98,8 +100,8 @@ gsap.from('#page2 .bottom-heading', {
 
   scrollTrigger: {
     trigger: '#page2 .bottom-heading',
-    start: 'top bottom',
-    end: 'bottom center'
+    start: 'top 80%',
+    end: 'bottom 50%'
   }
 })
 gsap.from('#page2 .last-heading', {
@@ -109,8 +111,8 @@ gsap.from('#page2 .last-heading', {
 
   scrollTrigger: {
     trigger: '#page2 .last-heading',
-    start: 'top bottom',
-    end: 'bottom center'
+    start: 'top 80%',
+    end: 'bottom 50%'
   }
 })
 
@@ -459,3 +461,4 @@ gsap.from('footer #footer-container .right-footer', {
     end: 'bottom center'
   }
 })
+*/
