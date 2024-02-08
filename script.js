@@ -30,10 +30,10 @@ function hideMobileMenu() {
 // GSAP
 
 gsap.from('#page1 nav', {
-  y: -100,
+  y: -50,
   duration: .8,
   opacity: 0,
-  ease: "power1.out",
+  ease: 'slow'
 })
 
 gsap.from('#page1 #hero-section', {
